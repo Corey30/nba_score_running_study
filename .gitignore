@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+kaggle.json
+.kaggle/
+.aws/
+.codex/
+.agents/
+
+# Local data and generated outputs
+nba_pbp_data/*.csv
+output_result/
+catboost_info/
+figures/*.png
+*.log
+
+# Notebooks and tooling
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
